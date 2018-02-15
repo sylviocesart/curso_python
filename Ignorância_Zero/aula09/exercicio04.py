@@ -13,17 +13,29 @@ respectivos preços em 3 situações:
     comprar apenas galões de 4 litros;
     misturar latas e galões, de forma que o preço seja o menor.
 
-Acrescente 10% de folga e sempre arredonde os valores para cima,
+Acrescente 10% de folga no tamanho da area e sempre arredonde os valores para cima,
 isto é, considere latas cheias.
 """
 area = int(input("Qual o tamanho da área a ser pintada? "))
+print("Area digitada foi: ",area)
+# Acrescentando 10% no tamanho da área
+area = area*1.1
+print("Area acrescida de 10% é: ",area)
 
+
+# Calular o quanto excedeu no valor da área
+excesso = area - int(area)
+area = int(area)
+
+if excesso > 0:
+    area = area + 1
+"""
 # Divisão inteira
 litros = area//6
 
 if area % 6 > 0:
     litros = litros + 1
-
+     
 latas = litros//18
 if litros % 18 > 0:
     latas = latas + 1
@@ -32,6 +44,7 @@ galoes = litros//4
 if litros % 4 > 0:
     galoes = galoes + 1
 
+print("Você precisa de",litros,"litros para cobrir a área informada")
 if litros >= 4:
     print("Você precisa de",litros,"litros para cobrir a área informada")
     print("Você irá precisar de",galoes,"galoes para pintar")
@@ -39,3 +52,4 @@ if litros >= 4:
     if litros >= 18:
         print("Ou você pode comprar",latas,"latas para pintar")
         print("Valor pago nas latas será R$",latas*25)
+"""
