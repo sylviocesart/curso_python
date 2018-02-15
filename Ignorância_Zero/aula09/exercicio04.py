@@ -29,6 +29,21 @@ area = int(area)
 
 if excesso > 0:
     area = area + 1
+
+valor = float(input("entre com um valor: "))
+
+valor_arredondado = (round(valor))
+
+
+print(valor)
+print(valor_arredondado)
+
+
+if valor_arredondado <= valor:
+    valor_arredondado += 1
+    print(valor_arredondado)
+
+
 """
 # Divisão inteira
 litros = area//6
