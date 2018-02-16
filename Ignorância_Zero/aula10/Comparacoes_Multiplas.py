@@ -25,6 +25,8 @@ else:
 idade = int(input("Digite sua idade: "))
 if 18 <= idade < 70:
     print("Você terá o benefício, pois é maior de idade\n\n")
-else:
+if idade > 70:
     print("Você não terá direito ao benefício, pois é idoso\n\n")
- 
+if idade < 18:
+    print("Você não terá o benefício, pois é menor de idade!!\n\n")
+    
