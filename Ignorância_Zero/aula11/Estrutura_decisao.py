@@ -9,8 +9,8 @@ Ex:
     3-Terça, etc
 
 Caso digite outro valor, deve aparecer "valor inválido"
-
 """
+
 dia = int(input("Digite um número: "))
 
 if dia == 1:
