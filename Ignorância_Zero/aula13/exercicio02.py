@@ -18,7 +18,7 @@ while cont > 1:
     # 4 = 4 * 3
     produto = produto * cont
 
-    # cont = 4 -1, cont=3
+    # cont = 4 - 1, cont=3
     cont -= 1
 
 print(num,"! =",produto)
