@@ -16,6 +16,3 @@ while cont <= num:
     cont += 1
 
 print("A soma dos números de 1 até",num,"é =",soma)
-#
-# Arquivo alterado usando o VScode instalado em uma VM do MacOS no Vmware Workstation
-#
