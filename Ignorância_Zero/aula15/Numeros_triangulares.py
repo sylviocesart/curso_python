@@ -15,10 +15,11 @@ while i * j * k < num:
     i += 1
     j += 1
     k += 1
-if i * j * k != num:
-    print(num,"Não é triangular")
-else:
+if i * j * k = num:
     print(num,"é triangular, pois a multiplicação dos números",i,"x",j,"x",k,"é =",num)
+else:
+    print(num,"Não é triangular")
+    
 
 Ou o programa pode ser escrito sem precisar de 03 variáveis, podendo ser usado apenas 01 
 variável e sendo incrementada.
